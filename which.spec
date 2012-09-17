@@ -1,7 +1,7 @@
 Summary: Displays where a particular program in your path is located
 Name: which
 Version: 2.19
-Release: 5.2%{?dist}
+Release: 5.1.1%{?dist}
 License: GPLv3
 Group: Applications/System
 Source0: http://www.xs4all.nl/~carlo17/which/%{name}-%{version}.tar.gz
@@ -59,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/*/*
 
 %changelog
-* Fri Jul  8 2011 Mike Adams <shalkie@gooseproject.org> - 2.19-5.2
+* Fri Jul  8 2011 Mike Adams <shalkie@gooseproject.org> - 2.19-5.1.1
 - Rebuild for GoOSe Linux 6
 
 * Mon Nov 30 2009 Dennis Gregorovic <dgregor@redhat.com> - 2.19-5.1
